@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA6AFAB329E6EAC500785742 /* CuppaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AFAB229E6EAC500785742 /* CuppaApp.swift */; };
+		FA6AFAB529E6EAC500785742 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AFAB429E6EAC500785742 /* ContentView.swift */; };
+		FA6AFAB729E6EAC700785742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6AFAB629E6EAC700785742 /* Assets.xcassets */; };
+		FA6AFABB29E6EAC700785742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA6AFABA29E6EAC700785742 /* Preview Assets.xcassets */; };
+		FA6AFAC529E6EAC700785742 /* CuppaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AFAC429E6EAC700785742 /* CuppaTests.swift */; };
+		FA6AFACF29E6EAC700785742 /* CuppaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AFACE29E6EAC700785742 /* CuppaUITests.swift */; };
+		FA6AFAD129E6EAC700785742 /* CuppaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6AFAD029E6EAC700785742 /* CuppaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA6AFAC129E6EAC700785742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6AFAA729E6EAC500785742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6AFAAE29E6EAC500785742;
+			remoteInfo = Cuppa;
+		};
+		FA6AFACB29E6EAC700785742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA6AFAA729E6EAC500785742 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA6AFAAE29E6EAC500785742;
+			remoteInfo = Cuppa;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA6AFAAF29E6EAC500785742 /* Cuppa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cuppa.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6AFAB229E6EAC500785742 /* CuppaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuppaApp.swift; sourceTree = "<group>"; };
+		FA6AFAB429E6EAC500785742 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FA6AFAB629E6EAC700785742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA6AFAB829E6EAC700785742 /* Cuppa.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cuppa.entitlements; sourceTree = "<group>"; };
+		FA6AFABA29E6EAC700785742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA6AFAC029E6EAC700785742 /* CuppaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuppaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6AFAC429E6EAC700785742 /* CuppaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuppaTests.swift; sourceTree = "<group>"; };
+		FA6AFACA29E6EAC700785742 /* CuppaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CuppaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA6AFACE29E6EAC700785742 /* CuppaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuppaUITests.swift; sourceTree = "<group>"; };
+		FA6AFAD029E6EAC700785742 /* CuppaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuppaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA6AFAAC29E6EAC500785742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFABD29E6EAC700785742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFAC729E6EAC700785742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA6AFAA629E6EAC500785742 = {
+			isa = PBXGroup;
+			children = (
+				FA6AFAB129E6EAC500785742 /* Cuppa */,
+				FA6AFAC329E6EAC700785742 /* CuppaTests */,
+				FA6AFACD29E6EAC700785742 /* CuppaUITests */,
+				FA6AFAB029E6EAC500785742 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA6AFAB029E6EAC500785742 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AFAAF29E6EAC500785742 /* Cuppa.app */,
+				FA6AFAC029E6EAC700785742 /* CuppaTests.xctest */,
+				FA6AFACA29E6EAC700785742 /* CuppaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA6AFAB129E6EAC500785742 /* Cuppa */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AFAB229E6EAC500785742 /* CuppaApp.swift */,
+				FA6AFAB429E6EAC500785742 /* ContentView.swift */,
+				FA6AFAB629E6EAC700785742 /* Assets.xcassets */,
+				FA6AFAB829E6EAC700785742 /* Cuppa.entitlements */,
+				FA6AFAB929E6EAC700785742 /* Preview Content */,
+			);
+			path = Cuppa;
+			sourceTree = "<group>";
+		};
+		FA6AFAB929E6EAC700785742 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AFABA29E6EAC700785742 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA6AFAC329E6EAC700785742 /* CuppaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AFAC429E6EAC700785742 /* CuppaTests.swift */,
+			);
+			path = CuppaTests;
+			sourceTree = "<group>";
+		};
+		FA6AFACD29E6EAC700785742 /* CuppaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA6AFACE29E6EAC700785742 /* CuppaUITests.swift */,
+				FA6AFAD029E6EAC700785742 /* CuppaUITestsLaunchTests.swift */,
+			);
+			path = CuppaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA6AFAAE29E6EAC500785742 /* Cuppa */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6AFAD429E6EAC700785742 /* Build configuration list for PBXNativeTarget "Cuppa" */;
+			buildPhases = (
+				FA6AFAAB29E6EAC500785742 /* Sources */,
+				FA6AFAAC29E6EAC500785742 /* Frameworks */,
+				FA6AFAAD29E6EAC500785742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cuppa;
+			productName = Cuppa;
+			productReference = FA6AFAAF29E6EAC500785742 /* Cuppa.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA6AFABF29E6EAC700785742 /* CuppaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6AFAD729E6EAC700785742 /* Build configuration list for PBXNativeTarget "CuppaTests" */;
+			buildPhases = (
+				FA6AFABC29E6EAC700785742 /* Sources */,
+				FA6AFABD29E6EAC700785742 /* Frameworks */,
+				FA6AFABE29E6EAC700785742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6AFAC229E6EAC700785742 /* PBXTargetDependency */,
+			);
+			name = CuppaTests;
+			productName = CuppaTests;
+			productReference = FA6AFAC029E6EAC700785742 /* CuppaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA6AFAC929E6EAC700785742 /* CuppaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA6AFADA29E6EAC700785742 /* Build configuration list for PBXNativeTarget "CuppaUITests" */;
+			buildPhases = (
+				FA6AFAC629E6EAC700785742 /* Sources */,
+				FA6AFAC729E6EAC700785742 /* Frameworks */,
+				FA6AFAC829E6EAC700785742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA6AFACC29E6EAC700785742 /* PBXTargetDependency */,
+			);
+			name = CuppaUITests;
+			productName = CuppaUITests;
+			productReference = FA6AFACA29E6EAC700785742 /* CuppaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA6AFAA729E6EAC500785742 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					FA6AFAAE29E6EAC500785742 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					FA6AFABF29E6EAC700785742 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA6AFAAE29E6EAC500785742;
+					};
+					FA6AFAC929E6EAC700785742 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = FA6AFAAE29E6EAC500785742;
+					};
+				};
+			};
+			buildConfigurationList = FA6AFAAA29E6EAC500785742 /* Build configuration list for PBXProject "Cuppa" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA6AFAA629E6EAC500785742;
+			productRefGroup = FA6AFAB029E6EAC500785742 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA6AFAAE29E6EAC500785742 /* Cuppa */,
+				FA6AFABF29E6EAC700785742 /* CuppaTests */,
+				FA6AFAC929E6EAC700785742 /* CuppaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA6AFAAD29E6EAC500785742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6AFABB29E6EAC700785742 /* Preview Assets.xcassets in Resources */,
+				FA6AFAB729E6EAC700785742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFABE29E6EAC700785742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFAC829E6EAC700785742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA6AFAAB29E6EAC500785742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6AFAB529E6EAC500785742 /* ContentView.swift in Sources */,
+				FA6AFAB329E6EAC500785742 /* CuppaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFABC29E6EAC700785742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6AFAC529E6EAC700785742 /* CuppaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6AFAC629E6EAC700785742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA6AFAD129E6EAC700785742 /* CuppaUITestsLaunchTests.swift in Sources */,
+				FA6AFACF29E6EAC700785742 /* CuppaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA6AFAC229E6EAC700785742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6AFAAE29E6EAC500785742 /* Cuppa */;
+			targetProxy = FA6AFAC129E6EAC700785742 /* PBXContainerItemProxy */;
+		};
+		FA6AFACC29E6EAC700785742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA6AFAAE29E6EAC500785742 /* Cuppa */;
+			targetProxy = FA6AFACB29E6EAC700785742 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA6AFAD229E6EAC700785742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA6AFAD329E6EAC700785742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FA6AFAD529E6EAC700785742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cuppa/Cuppa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cuppa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.Cuppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA6AFAD629E6EAC700785742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cuppa/Cuppa.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cuppa/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.Cuppa;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FA6AFAD829E6EAC700785742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.CuppaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuppa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cuppa";
+			};
+			name = Debug;
+		};
+		FA6AFAD929E6EAC700785742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.CuppaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cuppa.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cuppa";
+			};
+			name = Release;
+		};
+		FA6AFADB29E6EAC700785742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.CuppaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cuppa;
+			};
+			name = Debug;
+		};
+		FA6AFADC29E6EAC700785742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = WasifDevelopments.CuppaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cuppa;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA6AFAAA29E6EAC500785742 /* Build configuration list for PBXProject "Cuppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6AFAD229E6EAC700785742 /* Debug */,
+				FA6AFAD329E6EAC700785742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6AFAD429E6EAC700785742 /* Build configuration list for PBXNativeTarget "Cuppa" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6AFAD529E6EAC700785742 /* Debug */,
+				FA6AFAD629E6EAC700785742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6AFAD729E6EAC700785742 /* Build configuration list for PBXNativeTarget "CuppaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6AFAD829E6EAC700785742 /* Debug */,
+				FA6AFAD929E6EAC700785742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA6AFADA29E6EAC700785742 /* Build configuration list for PBXNativeTarget "CuppaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA6AFADB29E6EAC700785742 /* Debug */,
+				FA6AFADC29E6EAC700785742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA6AFAA729E6EAC500785742 /* Project object */;
+}
